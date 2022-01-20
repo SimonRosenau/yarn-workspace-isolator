@@ -1,5 +1,8 @@
 name: 'Isolate Yarn Workspaces'
 description: 'Isolates yarn workspaces into a specified folder with all required dependencies'
+branding:
+  icon: box
+  color: blue
 inputs:
   workspace:
     description: 'Which workspace to isolate'
