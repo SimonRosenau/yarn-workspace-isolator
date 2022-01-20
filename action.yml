@@ -1,0 +1,12 @@
+name: 'Isolate Yarn Workspaces'
+description: 'Isolates yarn workspaces into a specified folder with all required dependencies'
+inputs:
+  workspace:
+    description: 'Which workspace to isolate'
+    required: true
+  output:
+    description: 'Output folder where workspace is copied to'
+    required: true
+runs:
+  using: 'node16'
+  main: 'src/action.js'

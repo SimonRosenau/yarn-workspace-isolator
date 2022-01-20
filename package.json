@@ -16,6 +16,7 @@
     "test": "yarn lint"
   },
   "dependencies": {
+    "@actions/core": "^1.6.0",
     "copy-dir": "^0.3.0",
     "lodash": "^4.17.13",
     "yargs": "^11.0.0"
